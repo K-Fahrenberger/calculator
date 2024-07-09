@@ -14,6 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 80vh;
+  font-family: jura;
 }
 
 .calculator {
@@ -32,6 +33,7 @@ button {
   color: #f6d689;
   border-radius: 10px;
   font-size: 8vw;
+  font-family: jura;
 }
 .equal-sign {
   color: #fff;
@@ -48,18 +50,20 @@ button {
   background-color: #a2a182;
   color: #1b1d2d;
   height: 8vw;
-  width: 45vw;
+  width: 44vw;
   font-size: 8vw;
+  padding: 2vw;
 }
 .mid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 header {
-  font-family: sans-serif;
+  padding: 1vw;
   font-size: 8vw;
+  font-weight: bolder;
   display: flex;
   justify-content: center;
 }
@@ -67,5 +71,10 @@ header {
 footer {
   display: flex;
   justify-content: center;
-  font-size: small;
+  font-size: 3vw;
+}
+
+footer a,
+p {
+  margin: 1vw;
 }
